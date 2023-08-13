@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Roboto+Mono&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.flag {
+	margin-left: 26vw;
+	margin-top: 80px;
+}
+
+body {
+	background-color: #aed4e3;
+}
+
+.saffron {
+	background-color: #FF671F;
+	/* 4.5 * height = width */
+	width: 235px;
+	height: 50px;
+	border-radius: 2px;
+}
+
+.white {
+	background-color: white;
+	width: 235px;
+	height: 50px;
+	border-radius: 2px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.green {
+	background-color: green;
+	width: 235px;
+	height: 50px;
+	border-radius: 2px;
+}
+
+
+.chakra {
+	height: 43px;
+	width: 43px;
+	border: 1px solid darkblue;
+	border-radius: 45px;
+	position: relative;
+	animation: rotate 10s linear infinite;
+}
+
+.chakra .spokes {
+	height: 100%;
+	width: 1px;
+	display: inline-block;
+	position: absolute;
+	left: 50%;
+	background: darkblue;
+}
+
+.spokes:nth-child(1) {
+	transform: rotate(15deg)
+}
+
+.spokes:nth-child(2) {
+	transform: rotate(30deg)
+}
+
+.spokes:nth-child(3) {
+	transform: rotate(45deg)
+}
+
+.spokes:nth-child(4) {
+	transform: rotate(60deg)
+}
+
+.spokes:nth-child(5) {
+	transform: rotate(75deg)
+}
+
+.spokes:nth-child(6) {
+	transform: rotate(90deg)
+}
+
+.spokes:nth-child(7) {
+	transform: rotate(105deg)
+}
+
+.spokes:nth-child(8) {
+	transform: rotate(120deg)
+}
+
+.spokes:nth-child(9) {
+	transform: rotate(135deg)
+}
+
+.spokes:nth-child(10) {
+	transform: rotate(150deg)
+}
+
+.spokes:nth-child(11) {
+	transform: rotate(165deg)
+}
+
+.spokes:nth-child(12) {
+	transform: rotate(180deg)
+}
+
+.stick {
+	height: 637px;
+	width: 8px;
+	background-color: white;
+	margin-top: -161px;
+	/* border-radius: 6px; */
+	border-radius: 6px 6px 0px 0px;
+
+}
+
+.bottom {
+	background-color: #348C31;
+	width: 100%;
+	height: 30px;
+}
+
+/* @keyframes rotate {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(360deg);
+	}
+} */
+
+
+/* ---------------------- */
+
+
+
+.happy {
+	position: absolute;
+    margin-left: 60%;
+    margin-top: 17%;
+}
+
+.H {
+	color: #FF671F;
+
+	font-family: 'Roboto Mono', monospace;
+
+    font-size: 76px;
+}
+.I{
+	font-size: 60px;
+	margin-left: 60px;
+	color: white;
+}
+.D{
+	font-size: 71px;
+    margin-left: 160px;
+    color: green;
+}
+
+.chakra1 {
+	
+    height: 179px;
+    width: 179px;
+    border: 7px solid darkblue;
+    border-radius: 50%;
+    position: absolute;
+    /* animation: rotate 10s linear infinite; */
+	animation: rotatechakra1 10s linear infinite;
+    margin-left: 62%;
+    margin-top: 18%;
+
+}
+
+.chakra1 .spokes1 {
+	height: 100%;
+	width: 2px;
+	display: inline-block;
+	position: absolute;
+	left: 50%;
+	
+	background: darkblue;
+}
+
+.spokes1:nth-child(1) {
+	transform: rotate(15deg)
+}
+
+.spokes1:nth-child(2) {
+	transform: rotate(30deg)
+}
+
+.spokes1:nth-child(3) {
+	transform: rotate(45deg)
+}
+
+.spokes1:nth-child(4) {
+	transform: rotate(60deg)
+}
+
+.spokes1:nth-child(5) {
+	transform: rotate(75deg)
+}
+
+.spokes1:nth-child(6) {
+	transform: rotate(90deg)
+}
+
+.spokes1:nth-child(7) {
+	transform: rotate(105deg)
+}
+
+.spokes1:nth-child(8) {
+	transform: rotate(120deg)
+}
+
+.spokes1:nth-child(9) {
+	transform: rotate(135deg)
+}
+
+.spokes1:nth-child(10) {
+	transform: rotate(150deg)
+}
+
+.spokes1:nth-child(11) {
+	transform: rotate(165deg)
+}
+
+.spokes1:nth-child(12) {
+	transform: rotate(180deg)
+}
+@keyframes rotatechakra1 {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(360deg);
+	}
+}
