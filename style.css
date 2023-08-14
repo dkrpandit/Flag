@@ -139,8 +139,8 @@ body {
 
 .happy {
 	position: absolute;
-    margin-left: 60%;
-    margin-top: 17%;
+	margin-left: 60%;
+	margin-top: 17%;
 }
 
 .H {
@@ -148,30 +148,31 @@ body {
 
 	font-family: 'Roboto Mono', monospace;
 
-    font-size: 76px;
+	font-size: 76px;
 }
-.I{
+
+.I {
 	font-size: 60px;
 	margin-left: 60px;
 	color: white;
 }
-.D{
+
+.D {
 	font-size: 71px;
-    margin-left: 160px;
-    color: green;
+	margin-left: 160px;
+	color: green;
 }
 
 .chakra1 {
-	
-    height: 179px;
-    width: 179px;
-    border: 7px solid darkblue;
-    border-radius: 50%;
-    position: absolute;
-    /* animation: rotate 10s linear infinite; */
+
+	height: 179px;
+	width: 179px;
+	border: 7px solid darkblue;
+	border-radius: 50%;
+	position: absolute;
 	animation: rotatechakra1 10s linear infinite;
-    margin-left: 62%;
-    margin-top: 18%;
+	margin-left: 62%;
+	margin-top: 18%;
 
 }
 
@@ -181,7 +182,7 @@ body {
 	display: inline-block;
 	position: absolute;
 	left: 50%;
-	
+
 	background: darkblue;
 }
 
@@ -232,6 +233,7 @@ body {
 .spokes1:nth-child(12) {
 	transform: rotate(180deg)
 }
+
 @keyframes rotatechakra1 {
 	from {
 		transform: rotate(0deg);
@@ -239,5 +241,69 @@ body {
 
 	to {
 		transform: rotate(360deg);
+	}
+}
+
+/* ----------------------- */
+@media (max-width: 370px) {
+
+	/* Adjust font sizes and spacing for smaller screens */
+	.flag {
+		margin-left: 7vw;
+		margin-top: 36px;
+	}
+
+	.stick {
+		height: 96vh;
+		width: 8px;
+		background-color: white;
+		margin-top: -161px;
+		border-radius: 6px 6px 0px 0px;
+
+	}
+
+	.bottom {
+		background-color: #348C31;
+		width: 100%;
+		height: 4vh;
+	}
+
+	.happy {
+		position: absolute;
+		margin-left: 47px;
+		margin-top: 506px;
+	}
+
+	.H {
+		color: #FF671F;
+
+		font-family: 'Roboto Mono', monospace;
+
+		font-size: 35px;
+	}
+
+	.I {
+		font-size: 25px;
+		margin-left: 60px;
+		color: white;
+	}
+
+	.D {
+		font-size: 30px;
+		margin-left: 160px;
+		color: green;
+	}
+
+	.chakra1 {
+
+		height: 179px;
+		width: 179px;
+		border: 7px solid darkblue;
+		border-radius: 50%;
+		position: absolute;
+		animation: rotatechakra1 10s linear infinite;
+		margin-left: 92px;
+		margin-top: 460px;
+
 	}
 }
